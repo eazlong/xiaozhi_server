@@ -12,7 +12,7 @@ The skills speak in terms of five canonical triage roles. This file maps those r
 
 When a skill mentions a role (e.g. "apply the AFK-ready triage label"), use the corresponding label string from this table.
 
-All five labels exist on `eazlong/xiaozhi-esp32-server`. `wontfix` was already present as a GitHub default and is reused as the role's label rather than duplicated.
+All five labels exist on `eazlong/xiaozhi_server`. `wontfix` was already present as a GitHub default and is reused as the role's label rather than duplicated.
 
 ## Wayfinding labels
 

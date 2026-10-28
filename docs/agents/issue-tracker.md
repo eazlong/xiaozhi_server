@@ -2,9 +2,17 @@
 
 Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all operations.
 
-**Repository: `eazlong/xiaozhi-esp32-server`** (the `origin` remote).
+**Repository: `eazlong/xiaozhi_server`** (the `origin` remote).
 
-> This repo is a fork whose upstream is `xinnan-tech/xiaozhi-esp32-server`. `gh` reads `remote.origin.gh-resolved = base` from `.git/config` and resolves to `eazlong/xiaozhi-esp32-server`, so running `gh` inside this clone targets the fork. Do **not** pass `--repo xinnan-tech/...`: that repository is the upstream and you have read-only access there.
+> `origin` points at `git@github.com:eazlong/xiaozhi_server.git`. This repo is **not** a GitHub
+> fork: it is a standalone repository whose history was re-initialised (single `first commit`),
+> with `xinnan-tech/xiaozhi-esp32-server` kept as a fetch-only `upstream` remote.
+>
+> `gh` initially resolved to the upstream (read-only, so `gh issue create` would fail there).
+> It is now pinned with `gh repo set-default eazlong/xiaozhi_server`. Do **not** pass
+> `--repo xinnan-tech/...`: that is the upstream and you have no write access.
+>
+> If a fresh clone shows upstream again, re-pin it: `gh repo set-default eazlong/xiaozhi_server`.
 
 ## Conventions
 
