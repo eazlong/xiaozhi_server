@@ -31,7 +31,7 @@
 
 ```
 cd /home/system/xiaozhi
-git clone https://ghproxy.net/https://github.com/eazlong/xiaozhi-esp32-server.git
+git clone https://ghproxy.net/https://github.com/eazlong/xiaozhi_server.git
 ```
 
 执行完后，你的项目目录会多了一个文件夹`xiaozhi-esp32-server`，这个就是项目的源码

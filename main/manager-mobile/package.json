@@ -14,10 +14,10 @@
     "gitee": "https://gitee.com/huang-jun-sen"
   },
   "license": "MIT",
-  "homepage": "https://github.com/eazlong/xiaozhi-esp32-server",
-  "repository": "https://github.com/eazlong/xiaozhi-esp32-server",
+  "homepage": "https://github.com/eazlong/xiaozhi_server",
+  "repository": "https://github.com/eazlong/xiaozhi_server",
   "bugs": {
-    "url": "https://github.com/eazlong/xiaozhi-esp32-server/issues"
+    "url": "https://github.com/eazlong/xiaozhi_server/issues"
   },
   "engines": {
     "node": ">=18",

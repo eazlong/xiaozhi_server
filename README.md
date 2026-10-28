@@ -1,4 +1,4 @@
-[![Banners](docs/images/banner1.png)](https://github.com/eazlong/xiaozhi-esp32-server)
+[![Banners](docs/images/banner1.png)](https://github.com/eazlong/xiaozhi_server)
 
 <h1 align="center">小智后端服务xiaozhi-esp32-server</h1>
 
@@ -11,9 +11,9 @@
 
 <p align="center">
 <a href="./docs/FAQ.md">常见问题</a>
-· <a href="https://github.com/eazlong/xiaozhi-esp32-server/issues">反馈问题</a>
+· <a href="https://github.com/eazlong/xiaozhi_server/issues">反馈问题</a>
 · <a href="./README.md#%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3">部署文档</a>
-· <a href="https://github.com/eazlong/xiaozhi-esp32-server/releases">更新日志</a>
+· <a href="https://github.com/eazlong/xiaozhi_server/releases">更新日志</a>
 </p>
 
 <p align="center">
@@ -23,13 +23,13 @@
   <a href="./docs/readme/README_de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-DFE0E5"></a>
   <a href="./docs/readme/README_pt_BR.md"><img alt="Português (Brasil)" src="https://img.shields.io/badge/Português (Brasil)-DFE0E5"></a>
   <a href="./docs/readme/README_es.md"><img alt="Español" src="https://img.shields.io/badge/Español-DFE0E5"></a>
-  <a href="https://github.com/eazlong/xiaozhi-esp32-server/releases">
+  <a href="https://github.com/eazlong/xiaozhi_server/releases">
     <img alt="GitHub Contributors" src="https://img.shields.io/github/v/release/xinnan-tech/xiaozhi-esp32-server?logo=docker" />
   </a>
-  <a href="https://github.com/eazlong/xiaozhi-esp32-server/blob/main/LICENSE">
+  <a href="https://github.com/eazlong/xiaozhi_server/blob/main/LICENSE">
     <img alt="GitHub pull requests" src="https://img.shields.io/badge/license-MIT-white?labelColor=black" />
   </a>
-  <a href="https://github.com/eazlong/xiaozhi-esp32-server">
+  <a href="https://github.com/eazlong/xiaozhi_server">
     <img alt="stars" src="https://img.shields.io/github/stars/xinnan-tech/xiaozhi-esp32-server?color=ffcb47&labelColor=black" />
   </a>
 </p>
@@ -225,7 +225,7 @@ Websocket接口地址: wss://2662r3426b.vicp.fun/xiaozhi/v1/
 ![请参考-全模块安装架构图](docs/images/deploy2.png)
 | 功能模块 | 描述 |
 |:---:|:---|
-| 核心架构 | 基于[MQTT+UDP网关](https://github.com/eazlong/xiaozhi-esp32-server/blob/main/docs/mqtt-gateway-integration.md)、WebSocket、HTTP服务器，提供完整的控制台管理和认证系统 |
+| 核心架构 | 基于[MQTT+UDP网关](https://github.com/eazlong/xiaozhi_server/blob/main/docs/mqtt-gateway-integration.md)、WebSocket、HTTP服务器，提供完整的控制台管理和认证系统 |
 | 语音交互 | 支持流式ASR(语音识别)、流式TTS(语音合成)、VAD(语音活动检测)，支持多语言识别和语音处理 |
 | 声纹识别 | 支持多用户声纹注册、管理和识别，与ASR并行处理，实时识别说话人身份并传递给LLM进行个性化回应 |
 | 智能对话 | 支持多种LLM(大语言模型)，实现智能对话 |
@@ -355,7 +355,7 @@ Websocket接口地址: wss://2662r3426b.vicp.fun/xiaozhi/v1/
 | <img src="./docs/images/logo_junsen.png" width="160"> | [huangjunsen](https://github.com/huangjunsen0406) | 感谢[huangjunsen](https://github.com/huangjunsen0406) 贡献`智控台移动端`模块，实现了跨平台移动设备的高效控制与实时交互，大幅提升了系统在移动场景下的操作便捷性和管理效率 |
 | <img src="./docs/images/logo_huiyuan.png" width="160"> | [汇远设计](http://ui.kwd988.net/) | 感谢[汇远设计](http://ui.kwd988.net/)为本项目提供专业视觉解决方案，用其服务超千家企业的设计实战经验，赋能本项目产品用户体验 |
 | <img src="./docs/images/logo_qinren.png" width="160"> | [西安勤人信息科技](https://www.029app.com/) | 感谢[西安勤人信息科技](https://www.029app.com/)深化本项目视觉体系，确保整体设计风格在多场景应用中的一致性和扩展性 |
-| <img src="./docs/images/logo_contributors.png" width="160"> | [代码贡献者](https://github.com/eazlong/xiaozhi-esp32-server/graphs/contributors) | 感谢[所有代码贡献者](https://github.com/eazlong/xiaozhi-esp32-server/graphs/contributors)贡献者，你们的付出让项目更加健壮和强大。 |
+| <img src="./docs/images/logo_contributors.png" width="160"> | [代码贡献者](https://github.com/eazlong/xiaozhi_server/graphs/contributors) | 感谢[所有代码贡献者](https://github.com/eazlong/xiaozhi_server/graphs/contributors)贡献者，你们的付出让项目更加健壮和强大。 |
 
 
 <a href="https://www.star-history.com/?repos=xinnan-tech%2Fxiaozhi-esp32-server&type=date&legend=top-left">

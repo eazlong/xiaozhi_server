@@ -104,4 +104,4 @@ VAD:
 
 ### 13、更多问题，可联系我们反馈 💬
 
-可以在[issues](https://github.com/eazlong/xiaozhi-esp32-server/issues)提交您的问题。
+可以在[issues](https://github.com/eazlong/xiaozhi_server/issues)提交您的问题。

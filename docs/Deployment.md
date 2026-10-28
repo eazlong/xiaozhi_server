@@ -147,7 +147,7 @@ conda install libiconv -y
 
 你先要下载本项目源码，源码可以通过`git clone`命令下载，如果你不熟悉`git clone`命令。
 
-你可以用浏览器打开这个地址`https://github.com/eazlong/xiaozhi-esp32-server.git`
+你可以用浏览器打开这个地址`https://github.com/eazlong/xiaozhi_server.git`
 
 打开完，找到页面中一个绿色的按钮，写着`Code`的按钮，点开它，然后你就看到`Download ZIP`的按钮。
 

@@ -19,7 +19,7 @@ docker 安装全模块有两种方式，你可以[使用懒人脚本](./Deployme
 
 使用SSH工具连接到服务器，以root权限执行如下脚本
 ```bash
-sudo bash -c "$(wget -qO- https://ghfast.top/https://raw.githubusercontent.com/eazlong/xiaozhi-esp32-server/main/docker-setup.sh)"
+sudo bash -c "$(wget -qO- https://ghfast.top/https://raw.githubusercontent.com/eazlong/xiaozhi_server/main/docker-setup.sh)"
 ```
 
 脚本会自动完成以下操作：
@@ -71,7 +71,7 @@ xiaozhi-server
 在页面的右侧找到名称为`RAW`按钮，在`RAW`按钮的旁边，找到下载的图标，点击下载按钮，下载`docker-compose_all.yml`文件。 把文件下载到你的
 `xiaozhi-server`中。
 
-或者直接执行 `wget https://raw.githubusercontent.com/eazlong/xiaozhi-esp32-server/refs/heads/main/main/xiaozhi-server/docker-compose_all.yml` 下载。
+或者直接执行 `wget https://raw.githubusercontent.com/eazlong/xiaozhi_server/refs/heads/main/main/xiaozhi-server/docker-compose_all.yml` 下载。
 
 下载完后，回到本教程继续往下。
 
@@ -82,7 +82,7 @@ xiaozhi-server
 在页面的右侧找到名称为`RAW`按钮，在`RAW`按钮的旁边，找到下载的图标，点击下载按钮，下载`config_from_api.yaml`文件。 把文件下载到你的
 `xiaozhi-server`下面的`data`文件夹中，然后把`config_from_api.yaml`文件重命名为`.config.yaml`。
 
-或者直接执行 `wget https://raw.githubusercontent.com/eazlong/xiaozhi-esp32-server/refs/heads/main/main/xiaozhi-server/config_from_api.yaml` 下载保存。
+或者直接执行 `wget https://raw.githubusercontent.com/eazlong/xiaozhi_server/refs/heads/main/main/xiaozhi-server/config_from_api.yaml` 下载保存。
 
 下载完配置文件后，我们确认一下整个`xiaozhi-server`里面的文件如下所示：
 
@@ -366,7 +366,7 @@ conda install libiconv -y
 
 你先要下载本项目源码，源码可以通过`git clone`命令下载，如果你不熟悉`git clone`命令。
 
-你可以用浏览器打开这个地址`https://github.com/eazlong/xiaozhi-esp32-server.git`
+你可以用浏览器打开这个地址`https://github.com/eazlong/xiaozhi_server.git`
 
 打开完，找到页面中一个绿色的按钮，写着`Code`的按钮，点开它，然后你就看到`Download ZIP`的按钮。
 

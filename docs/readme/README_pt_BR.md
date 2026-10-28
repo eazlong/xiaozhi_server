@@ -1,4 +1,4 @@
-[![Banners](../images/banner1.png)](https://github.com/eazlong/xiaozhi-esp32-server)
+[![Banners](../images/banner1.png)](https://github.com/eazlong/xiaozhi_server)
 
 <h1 align="center">Serviço Backend Xiaozhi xiaozhi-esp32-server</h1>
 
@@ -11,9 +11,9 @@ Suporte ao protocolo MQTT+UDP, protocolo WebSocket, ponto de acesso MCP, reconhe
 
 <p align="center">
 <a href="../FAQ.md">Perguntas Frequentes</a>
-· <a href="https://github.com/eazlong/xiaozhi-esp32-server/issues">Reportar Problemas</a>
+· <a href="https://github.com/eazlong/xiaozhi_server/issues">Reportar Problemas</a>
 · <a href="../../README.md#%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3">Documentação de Implantação</a>
-· <a href="https://github.com/eazlong/xiaozhi-esp32-server/releases">Notas de Lançamento</a>
+· <a href="https://github.com/eazlong/xiaozhi_server/releases">Notas de Lançamento</a>
 </p>
 
 <p align="center">
@@ -23,13 +23,13 @@ Suporte ao protocolo MQTT+UDP, protocolo WebSocket, ponto de acesso MCP, reconhe
   <a href="./README_de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-DFE0E5"></a>
   <a href="./README_pt_BR.md"><img alt="Português (Brasil)" src="https://img.shields.io/badge/Português (Brasil)-DBEDFA"></a>
   <a href="./README_es.md"><img alt="Español" src="https://img.shields.io/badge/Español-DFE0E5"></a>
-  <a href="https://github.com/eazlong/xiaozhi-esp32-server/releases">
+  <a href="https://github.com/eazlong/xiaozhi_server/releases">
     <img alt="GitHub Contributors" src="https://img.shields.io/github/v/release/xinnan-tech/xiaozhi-esp32-server?logo=docker" />
   </a>
-  <a href="https://github.com/eazlong/xiaozhi-esp32-server/blob/main/LICENSE">
+  <a href="https://github.com/eazlong/xiaozhi_server/blob/main/LICENSE">
     <img alt="GitHub pull requests" src="https://img.shields.io/badge/license-MIT-white?labelColor=black" />
   </a>
-  <a href="https://github.com/eazlong/xiaozhi-esp32-server">
+  <a href="https://github.com/eazlong/xiaozhi_server">
     <img alt="stars" src="https://img.shields.io/github/stars/xinnan-tech/xiaozhi-esp32-server?color=ffcb47&labelColor=black" />
   </a>
 </p>
@@ -221,7 +221,7 @@ Este projeto fornece as seguintes ferramentas de teste para ajudá-lo a verifica
 ![Diagrama de arquitetura da instalação de todos os módulos](../images/deploy2.png)
 | Módulo de Funcionalidade | Descrição |
 |:---:|:---|
-| Arquitetura Principal | Baseado em [gateway MQTT+UDP](https://github.com/eazlong/xiaozhi-esp32-server/blob/main/docs/mqtt-gateway-integration.md), servidores WebSocket e HTTP, fornece sistema completo de gerenciamento de console e autenticação |
+| Arquitetura Principal | Baseado em [gateway MQTT+UDP](https://github.com/eazlong/xiaozhi_server/blob/main/docs/mqtt-gateway-integration.md), servidores WebSocket e HTTP, fornece sistema completo de gerenciamento de console e autenticação |
 | Interação por Voz | Suporta ASR em streaming (reconhecimento de fala), TTS em streaming (síntese de voz), VAD (detecção de atividade vocal), suporta reconhecimento multilíngue e processamento de voz |
 | Reconhecimento de Impressão Vocal | Suporta registro, gerenciamento e reconhecimento de impressão vocal de múltiplos usuários, processa em paralelo com o ASR, reconhecimento de identidade do falante em tempo real e repassa ao LLM para respostas personalizadas |
 | Diálogo Inteligente | Suporta múltiplos LLM (modelos de linguagem de grande porte), implementa diálogo inteligente |
@@ -351,7 +351,7 @@ O reconhecimento de impressão vocal exige um serviço [voiceprint-api](https://
 | <img src="../images/logo_junsen.png" width="160"> | [huangjunsen](https://github.com/huangjunsen0406) | Agradecimentos a [huangjunsen](https://github.com/huangjunsen0406) por contribuir com o módulo `Console de Controle Inteligente Mobile`, que permite controle eficiente e interação em tempo real em dispositivos móveis, melhorando significativamente a conveniência operacional e a eficiência de gerenciamento do sistema em cenários móveis. |
 | <img src="../images/logo_huiyuan.png" width="160"> | [Huiyuan Design (汇远设计)](http://ui.kwd988.net/) | Agradecimentos à [Huiyuan Design](http://ui.kwd988.net/) por fornecer soluções visuais profissionais para este projeto, utilizando sua experiência prática de design atendendo mais de mil empresas para potencializar a experiência do usuário deste produto |
 | <img src="../images/logo_qinren.png" width="160"> | [Xi'an Qinren Information Technology (西安勤人信息科技)](https://www.029app.com/) | Agradecimentos à [Xi'an Qinren Information Technology](https://www.029app.com/) por aprofundar o sistema visual deste projeto, garantindo consistência e extensibilidade do estilo de design geral em aplicações de múltiplos cenários |
-| <img src="../images/logo_contributors.png" width="160"> | [Contribuidores de Código](https://github.com/eazlong/xiaozhi-esp32-server/graphs/contributors) | Agradecimentos a [todos os contribuidores de código](https://github.com/eazlong/xiaozhi-esp32-server/graphs/contributors), seus esforços tornaram o projeto mais robusto e poderoso. |
+| <img src="../images/logo_contributors.png" width="160"> | [Contribuidores de Código](https://github.com/eazlong/xiaozhi_server/graphs/contributors) | Agradecimentos a [todos os contribuidores de código](https://github.com/eazlong/xiaozhi_server/graphs/contributors), seus esforços tornaram o projeto mais robusto e poderoso. |
 
 
 <a href="https://www.star-history.com/?repos=xinnan-tech%2Fxiaozhi-esp32-server&type=date&legend=top-left">
